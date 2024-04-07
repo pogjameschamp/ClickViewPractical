@@ -28,7 +28,6 @@ export const usePlaylistManagement = () => {
     fetchPlaylists();
     }, [fetchPlaylists]);
 
-    // Function to add a video to a playlist
     const addVideoToPlaylist = useCallback((playlistId: number, videoId: number) => {
     setPlaylists(currentPlaylists =>
         currentPlaylists.map(playlist => {
@@ -40,7 +39,6 @@ export const usePlaylistManagement = () => {
     );
     }, []);
 
-    // Function to remove a video from a playlist
     const removeVideoFromPlaylist = useCallback((playlistId: number, videoId: number) => {
     setPlaylists(currentPlaylists =>
         currentPlaylists.map(playlist => {

@@ -20,11 +20,6 @@ export default function VideoItem(props: VideoItemProps) {
       onAddToPlaylist(selectedPlaylist, video.id);
     }
   };
-
-  const handleRemoveFromPlaylist = (playlistId: number) => {
-    onRemoveFromPlaylist(playlistId, video.id);
-  };
-
   
   return (
     <Row>
