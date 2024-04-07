@@ -53,7 +53,7 @@ Add support for adding videos into playlists, and removing videos from playlists
 
 How you choose to implement this is up to you! Try to consider what would make for the best user experience in your opinion.
 
-Note: Please ensure that videos cannot be added to a playlist more than once.
+Note: Please ensure that videos cannot be added to a playlist more than once. 
 
 ## Task 4: Playlist creation/deletion
 
