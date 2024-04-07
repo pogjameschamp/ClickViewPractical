@@ -1,3 +1,6 @@
+Comments and Thoughts:
+I spent a long time working and wondering on implementing how the videos would be added to playlists before realizing the limitations of using a static JSON file and the lack of data persistence. Another putback was that tailwind for some reason did not want to work in my project and I spent considerable time trying to debug why it wouldn't work but then moved on. I apologise for the lack of proper styling, I wish I couldv'e figured out why, I think it had to do with importing it into the parent file of the project. Although I did complete the functionality, what I would improve would be better styling using normal css. I completed the project in 2hrs30mins
+
 # ClickView Programming Practical
 
 Please try and complete as much of this practical as possible in the allotted time. You will be judged on your overall software design skills, use of language best practices, code reuse, and design patterns. Keep in mind that this is not an assignment and there are no strict marking criteria or rules. We are simply looking for a demonstration of your ability to design and implement software.
@@ -62,3 +65,4 @@ Add support for creating new playlists, and deleting existing playlists.
 ## Task 5: You're all done!
 
 If you've made it this far, you've completed all of the tasks and it's time to submit your practical. If you've found yourself with some extra time, feel free to either polish what you've done before submitting or add your own flair to the app.
+

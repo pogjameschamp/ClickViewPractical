@@ -35,7 +35,7 @@ export default function VideoItem(props: VideoItemProps) {
         <h2 className='h4'>{video.name}</h2>
         <p>{video.description}</p>
         <div>
-        <p>Add to Playlist: </p>
+        <strong><p>Add this video to a Playlist: </p></strong>
         <select 
           value={selectedPlaylist} 
           onChange={(e) => setSelectedPlaylist(Number(e.target.value))}
